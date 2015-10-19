@@ -13,7 +13,7 @@ Compile the philosopher.c code. No argument required for input.
 
 	```code
 	$ ./philosopher
-
+	```
 
 
 I have used mutex lock to avoid race conditions.
