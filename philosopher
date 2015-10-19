@@ -1,0 +1,171 @@
+Last login: Tue Oct 13 23:44:13 on ttys000
+Ananyas-MacBook-Pro:~ ananyakirti$ cd "/Users/ananyakirti/Google Drive/Codes/OS/assignment_5" && clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ananyas-MacBook-Pro:assignment_5 ananyakirti$ gcc phil.c 
+phil.c:57:47: warning: cast to 'void *' from smaller integer type 'int'
+      [-Wint-to-void-pointer-cast]
+                pthread_create(&phil[i], NULL, philosopher, (void *)i)...
+                                                            ^
+1 warning generated.
+Ananyas-MacBook-Pro:assignment_5 ananyakirti$ ./a.out 
+philosopher 2 denied!
+philosopher 0 is eating!
+philosopher 4 denied!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 2 is eating!
+philosopher 0 is eating!
+philosopher 4 denied!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 0 is eating!
+philosopher 2 is eating!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 4 denied!
+philosopher 3 denied!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 1 denied!
+philosopher 2 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 1 is eating!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 4 is eating!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 1 is eating!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 1 denied!
+philosopher 2 denied!
+philosopher 4 is eating!
+philosopher 3 denied!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 4 is eating!
+philosopher 3 is eating!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 4 is eating!
+philosopher 3 denied!
+philosopher 2 denied!
+philosopher 1 denied!
+philosopher 0 denied!
+philosopher 4 is eating!
+philosopher 1 is eating!
+philosopher 3 denied!
+philosopher 2 denied!
+philosopher 0 denied!
+philosopher 4 is eating!
+philosopher 1 is eating!
+philosopher 2 denied!
+philosopher 0 denied!
+philosopher 3 denied!
+philosopher 1 is eating!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 1 is eating!
+philosopher 3 is eating!
+philosopher 4 is eating!
+philosopher 2 is eating!
+philosopher 0 denied!
+philosopher 1 is eating!
+philosopher 3 is eating!
+philosopher 4 is eating!
+philosopher 2 is eating!
+philosopher 0 denied!
+philosopher 3 is eating!
+philosopher 1 is eating!
+philosopher 4 is eating!
+philosopher 2 is eating!
+philosopher 0 denied!
+philosopher 3 is eating!
+philosopher 1 is eating!
+philosopher 4 is eating!
+philosopher 2 is eating!
+philosopher 0 denied!
+philosopher 3 is eating!
+philosopher 1 is eating!
+philosopher 4 is eating!
+philosopher 2 is eating!
+philosopher 0 denied!
+philosopher 1 is eating!
+philosopher 2 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 denied!
+philosopher 2 denied!
+philosopher 1 is eating!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 2 is eating!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 4 is eating!
+philosopher 0 denied!
+philosopher 2 is eating!
+philosopher 1 denied!
+philosopher 3 denied!
+philosopher 4 is eating!
+philosopher 0 denied!
+philosopher 2 is eating!
+philosopher 1 denied!
+philosopher 0 denied!
+philosopher 3 denied!
+philosopher 4 denied!
+philosopher 2 is eating!
+philosopher 3 denied!
+philosopher 4 is eating!
+philosopher 1 denied!
+philosopher 0 denied!
+philosopher 3 is eating!
+philosopher 4 denied!
+philosopher 0 is eating!
+philosopher 1 denied!
+philosopher 2 denied!
+^C
+Ananyas-MacBook-Pro:assignment_5 ananyakirti$ 
