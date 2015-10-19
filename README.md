@@ -11,9 +11,9 @@ Kindly let the code run for multiple iteration, to observe that the Eating Philo
 
 Compile the philosopher.c code. No argument required for input.
 
-	``` code
+
 	$ ./philosopher
-	```
+
 
 
 I have used mutex lock to avoid race conditions.
